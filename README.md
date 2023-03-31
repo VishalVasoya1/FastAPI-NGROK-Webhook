@@ -11,10 +11,10 @@ Metrics: This project doesn't have any specific metrics, as it is a development 
 
 Use Cases:
 
-Continuous Integration (CI) and Continuous Deployment (CD): This project can be used to trigger a build or deployment process automatically whenever a push event occurs in a linked GitHub repository.
+* Continuous Integration (CI) and Continuous Deployment (CD): This project can be used to trigger a build or deployment process automatically whenever a push event occurs in a linked GitHub repository.
 
-Testing and Development: This project is especially useful for developers who want to test and debug webhooks locally before deploying them to a production environment.
+* Testing and Development: This project is especially useful for developers who want to test and debug webhooks locally before deploying them to a production environment.
 
-Custom Integrations: By creating custom webhooks and processing the JSON payloads received by the webhook endpoint, this project can be used to integrate with a wide range of third-party services and tools.
+* Custom Integrations: By creating custom webhooks and processing the JSON payloads received by the webhook endpoint, this project can be used to integrate with a wide range of third-party services and tools.
 
 Conclusion: In conclusion, this project provides a simple and effective way to test and develop GitHub webhooks using FastAPI, ngrok, and the GitHub webhooks API. With this tool, developers can easily create a publicly accessible endpoint for receiving notifications from GitHub, allowing them to automate many tasks related to software development, including continuous integration and deployment.
